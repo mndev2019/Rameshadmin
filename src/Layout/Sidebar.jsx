@@ -5,6 +5,7 @@ import googleform from '../assets/Image/googleform.png'
 import faq from '../assets/Image/faq.png'
 import contact from '../assets/Image/contacts.png'
 import { AiOutlineLogout } from "react-icons/ai"
+import blog from '../assets/Image/blog.png'
 
 
 const Sidebar = () => {
@@ -55,7 +56,7 @@ const Sidebar = () => {
                         <Link to={'/blog'} className='w-full  py-2  text-start block  text-white'>
                             <div className="w-full flex gap-2 items-center">
                                 <div className={`h-[40px] w-[40px] flex justify-center items-center ${location.pathname === "/blog" ? "text-secondary" : ""}`}>
-                                    <img src={faq} className="h-[30px]" />
+                                    <img src={blog} className="h-[30px]" />
 
                                 </div>
                                 <div className={` font-[500] text-[16px] ${location.pathname === '/blog' ? "text-secondary" : "text-white"}`}>

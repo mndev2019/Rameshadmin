@@ -53,7 +53,7 @@ const Login = () => {
         <div className="w-full max-w-md bg-white/10 backdrop-blur-2xl rounded-2xl shadow-2xl p-8 border border-white/20">
 
           <h2 className="text-3xl font-bold text-white text-center mb-2">
-            Ramesh Corp Admin
+            Tele Digital Admin
           </h2>
           <p className="text-gray-300 text-center mb-8">
             Secure Admin Login
@@ -71,7 +71,7 @@ const Login = () => {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="info@rameshcorp.com"
+                  
                   className="w-full pl-11 pr-4 py-3 rounded-lg bg-white/20 text-white placeholder-gray-300 outline-none border border-transparent focus:border-cyan-400 transition"
                 />
               </div>
@@ -88,7 +88,7 @@ const Login = () => {
                   type={showPassword ? "text" : "password"}
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  placeholder="••••••••"
+                 
                   className="w-full pl-11 pr-12 py-3 rounded-lg bg-white/20 text-white placeholder-gray-300 outline-none border border-transparent focus:border-cyan-400 transition"
                 />
                 <span
@@ -111,7 +111,7 @@ const Login = () => {
           </form>
 
           <p className="text-center text-gray-400 text-sm mt-6">
-            © {new Date().getFullYear()} Ramesh Crop
+            © {new Date().getFullYear()} Tele Digital
           </p>
         </div>
       </div>
